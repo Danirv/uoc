@@ -1,8 +1,12 @@
-<?php
-$dir    = '../';
-$files1 = scandir($dir);
-$files2 = scandir($dir, SCANDIR_SORT_DESCENDING);
+<!DOCTYPE html>
+<html>
+<body>
 
-print_r($files1);
-print_r($files2);
+<h1>My first PHP page</h1>
+
+<?php
+echo "Hello World!";
 ?>
+
+</body>
+</html>
